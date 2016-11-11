@@ -6,15 +6,15 @@ Links and preferences for quick setup of personal development environment
 - https://github.com/mdo/config
 
 ## Setup Windows
+- copy ssh keys from Dropbox
 - Install [WinSCP](https://winscp.net/eng/download.php) and import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) 
 - Install [Git](https://git-scm.com/download/win)
 - Install [ConEmu](https://conemu.github.io/)
 - Choose `{Bash::Git bash}` as startup task on inital launch config
+  - If there is error, point startup task to -> program files/git/bin/sh.exe
 - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
-- Copy [`.bash_profile`](.bash_profile) to User home directory (`%HOMEPATH`)
-- If needed, add a line in bash profile to fast navigate to default dev directory `cd f:/dev`
-- Reload bash profile `source ~/.bash_profile`
+- 
 
 
 ## Dev dependencies
