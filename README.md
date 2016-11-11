@@ -7,7 +7,7 @@ Links and preferences for quick setup of personal development environment
 
 ## Setup Windows
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
-- Install [WinSCP](https://winscp.net/eng/download.php) and import settings file from Dropbox
+- Install [WinSCP](https://winscp.net/eng/download.php) and go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) 
 - Install [Git](https://git-scm.com/download/win)
 - Install [ConEmu](https://conemu.github.io/)
