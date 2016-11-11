@@ -6,7 +6,8 @@ Links and preferences for quick setup of personal development environment
 - https://github.com/mdo/config
 
 ## Setup Windows
-- Install [WinSCP](https://winscp.net/eng/download.php)
+- Install [WinSCP](https://winscp.net/eng/download.php) and import settings file from Dropbox
+- Install [Node.js](https://nodejs.org/en/) 
 - Install [Git](https://git-scm.com/download/win)
 - Install [ConEmu](https://conemu.github.io/)
 - Choose `{Bash::Git bash}` as startup task on inital launch config
@@ -21,7 +22,9 @@ Links and preferences for quick setup of personal development environment
 
 ## Brackets 
 - Install Brackets [[Link](http://brackets.io/)]
-- Copy extensions installer file from dropbox
+- Install Brackets extensions:
+  - Extensions Bulk Installer (use the config file in Dropbox)
+- Add EditorConfig file to webdev root
 
 ## Sublime Text
 - Install Sublime Text 3 [[Link](http://www.sublimetext.com/3)]
