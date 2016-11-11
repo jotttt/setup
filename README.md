@@ -6,6 +6,7 @@ Links and preferences for quick setup of personal development environment
 - https://github.com/mdo/config
 
 ## Setup Windows
+- Install [WinSCP](https://winscp.net/eng/download.php)
 - Install [Git](https://git-scm.com/download/win)
 - Install [ConEmu](https://conemu.github.io/)
 - Choose `{Bash::Git bash}` as startup task on inital launch config
@@ -16,8 +17,11 @@ Links and preferences for quick setup of personal development environment
 
 
 ## Dev dependencies
-- Grunt `npm install -g grunt-cli`
+- Gulp `npm install -g gulp`
 
+## Brackets 
+- Install Brackets [[Link](http://brackets.io/)]
+- Copy extensions installer file from dropbox
 
 ## Sublime Text
 - Install Sublime Text 3 [[Link](http://www.sublimetext.com/3)]
