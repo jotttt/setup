@@ -6,7 +6,7 @@ Links and preferences for quick setup of personal development environment
 - https://github.com/mdo/config
 
 ## Setup Windows
-- copy ssh keys from Dropbox
+- copy ssh keys from Dropbox to -> users/[username]/.ssh/
 - Install [WinSCP](https://winscp.net/eng/download.php) and import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) 
 - Install [Git](https://git-scm.com/download/win)
@@ -24,7 +24,12 @@ Links and preferences for quick setup of personal development environment
 - Install Brackets [[Link](http://brackets.io/)]
 - Install Brackets extensions:
   - Extensions Bulk Installer (use the config file in Dropbox)
+- Copy brackets.json file from Dropbox to \Users\[username]\AppData\Roaming\Brackets
 - Add EditorConfig file to webdev root
+
+## TTÜ
+- Go to -> https://wiki.ttu.ee/it/et/doc/vpn and install the vpn client
+- Start vpn and go to https://itwiki.intra.ttu.ee/ to get repo addresses 
 
 ## Sublime Text
 - Install Sublime Text 3 [[Link](http://www.sublimetext.com/3)]
