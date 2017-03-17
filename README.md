@@ -36,6 +36,9 @@ Links and preferences for quick setup of personal development environment
 - Install dark version Gimp 2.8.14 [[Link](http://www.partha.com/)]
 - copy plug-ins (Content Aware Fill and Layer via copy extensions) folder content to users/[username]/.gimp-2.8/plug-ins
 - Copy themes (photoshop-like themes) folder content to users/[username]/.gimp-2.8/themes
+  - open the program, select Windows -> Single-Window Mode...
+  - select the theme, from Edit -> Preferences -> Theme
+  - drag the tools Panel to the right and shrink the left tools panel, so it only has two rows
 - Copy menurc (photoshop-like shortcuts) file to users/[username]/.gimp-2.8/
 - Copy gimprc (Turn on the "Snap to Canvas Edge" option by default) file to users/[username]/.gimp-2.8/
 - Disable the layer boundary
