@@ -32,14 +32,25 @@ Links and preferences for quick setup of personal development environment
 ## Inkscape 
 - 
 
-## Gimp (photoshop like)
+## Gimp (with photoshop like tweaks)
 - Install Gimp 2.8.14 [[Link](http://www.partha.com/)]
 - Install Gimp extensions:
   - Photoshop themes [[Link](http://migf1.deviantart.com/art/Clearlooks-Flat-Icons-Gimp-2-8-Themes-v-1-0-1-484289796)]
   - Photoshop like shortcuts [[Link](http://epierce.freeshell.org/gimp/gimp_ps.php)]
+  - Content Aware Fill [[Link](http://epierce.freeshell.org/gimp/gimp_ps.php)]
+    - download the zip folder
+    - extract the content of the PluginScripts folder to users/[username]/.gimp-2.8/plug-ins
+  - Layer via copy [[Link](http://gimper.net/resources/layer-via-copy-cut.417/)]
+    - copy the layer-via-copy-cut.py file to .gimp-2.8/plug-ins/
 - Turn on the "Snap to Canvas Edge" option by default
   - in users/[username]/.gimp-2.8 open gimprc with notepad and paste these lines at the very end:
     (default-snap-to-canvas yes)
     (default-snap-to-grid yes)
 - Disable the layer boundary
   - go to Edit -> Preferences -> Image Windows - Appearance and uncheck the "Show Layer Boundary" in both Normal and full-screen Mode.
+- Change how the Move Tool works
+  - with the Move Tool selected, we choose the "Move the active layer" option...
+  - ...and then we go to Edit -> Preferences -> Tools Options -> Save Tool Options Now.
+- Change splashscreen
+  - name the image gimp-splash.png
+  - replace the image in C:\Program Files\Gimp-2.8\share\gimp\2.0\images
