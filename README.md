@@ -32,9 +32,14 @@ Links and preferences for quick setup of personal development environment
 ## Inkscape 
 - 
 
-## Gimp 
+## Gimp (photoshop like)
 - Install Gimp 2.8.14 [[Link](http://www.partha.com/)]
 - Install Gimp extensions:
   - Photoshop themes [[Link](http://migf1.deviantart.com/art/Clearlooks-Flat-Icons-Gimp-2-8-Themes-v-1-0-1-484289796)]
-- Copy brackets.json file from Dropbox to \Users\[username]\AppData\Roaming\Brackets
-- Add EditorConfig file to webdev root
+  - Photoshop like shortcuts [[Link](http://epierce.freeshell.org/gimp/gimp_ps.php)]
+- Turn on the "Snap to Canvas Edge" option by default
+  - in users/[username]/.gimp-2.8 open gimprc with notepad and paste these lines at the very end:
+    (default-snap-to-canvas yes)
+    (default-snap-to-grid yes)
+- Disable the layer boundary
+  - go to Edit -> Preferences -> Image Windows - Appearance and uncheck the "Show Layer Boundary" in both Normal and full-screen Mode.
