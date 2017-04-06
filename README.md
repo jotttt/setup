@@ -47,3 +47,6 @@ Links and preferences for quick setup of personal development environment
   - with the Move Tool selected, we choose the "Move the active layer" option...
   - ...and then we go to Edit -> Preferences -> Tools Options -> Save Tool Options Now.
 - Copy gimp-splash.png (photoshop cs6 inspired) from splash folder to C:\Program Files\Gimp-2.8\share\gimp\2.0\images
+
+## Sumatra PDF 
+- don't install Adobe Reader or Foxit PDF
