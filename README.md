@@ -29,10 +29,15 @@ Links and preferences for quick setup of personal development environment
 - Go to -> https://wiki.ttu.ee/it/et/doc/vpn and install the vpn client
 - Start vpn and go to https://itwiki.intra.ttu.ee/ to get repo addresses 
 
-## Inkscape 
-- 
+## Inkscape (with dark theme)
+- Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/ 
+- Unzip “inkscape 0.91 dark theme windows.rar” from dropbox/webdev/setup/inkscape
+- Double click on “Set Dark Theme”
+- Make sure extraction location is correct
+- Click extract
+- Start or re-start Inkscape
 
-## Gimp (with photoshop-like tweaks)
+## Gimp (with photoshop-like dark theme and tweaks)
 - Install dark version Gimp 2.8.14 [[Link](http://www.partha.com/)]
 - copy plug-ins (Content Aware Fill and Layer via copy extensions) folder content to users/[username]/.gimp-2.8/plug-ins
 - Copy themes (photoshop-like themes) folder content to users/[username]/.gimp-2.8/themes
