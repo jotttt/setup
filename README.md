@@ -35,6 +35,7 @@ Links and preferences for quick setup of personal development environment
 - Double click on “Set Dark Theme”
 - Make sure extraction location is correct
 - Click extract
+- Copy default template from dropbox/webdev/setup/inkscape to C:\Program Files\Inkscape\share\templates
 - Start or re-start Inkscape
 
 ## Gimp (with photoshop-like dark theme and tweaks)
