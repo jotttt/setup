@@ -31,11 +31,8 @@ Links and preferences for quick setup of personal development environment
 
 ## Inkscape (with dark theme)
 - Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/ 
-- Unzip “inkscape 0.91 dark theme windows.rar” from dropbox/webdev/setup/inkscape
-- Double click on “Set Dark Theme”
-- Make sure extraction location is correct
-- Click extract
-- Copy default template from dropbox/webdev/setup/inkscape to C:\Program Files\Inkscape\share\templates
+- Copy files from dropbox/webdev/setup/inkscape/dark theme files to C:\Program Files\Inkscape\
+- Copy default template from dropbox/webdev/setup/inkscape to C:\Program Files\Inkscape\share\templates OR C:\Users\[username]\AppData\Roaming\inkscape\templates
 - Start or re-start Inkscape
 
 ## Gimp (with photoshop-like dark theme and tweaks)
