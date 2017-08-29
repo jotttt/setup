@@ -27,7 +27,7 @@ Links and preferences for quick setup of personal development environment
 
 ## TTU
 - Go to -> https://wiki.ttu.ee/it/et/doc/vpn and install the vpn client
-- Start vpn and go to https://itwiki.intra.ttu.ee/ to get repo addresses 
+- Start vpn and go to https://itwiki.intra.ttu.ee/ Search git to get repo addresses 
 
 ## Inkscape (with dark theme)
 - Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/ 
