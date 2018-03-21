@@ -15,11 +15,14 @@ Links and preferences for quick setup of personal development environment
   - If there is error, point startup task to -> program files/git/bin/sh.exe
 - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 
+## Atom 
+- - Install [Atom](https://atom.io/)
+
 ## Dev dependencies
 - Gulp `npm install -g gulp`
 
 ## Brackets 
-- Install Brackets [[Link](http://brackets.io/)]
+- Install [Brackets](http://brackets.io/)]
 - Install Brackets extensions:
   - Extensions Bulk Installer (use the config file in Dropbox)
 - Copy brackets.json file from Dropbox to \Users\[username]\AppData\Roaming\Brackets
