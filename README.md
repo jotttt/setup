@@ -12,9 +12,9 @@ Links and preferences for quick setup of personal development environment
 - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 
 ## React.js
-- use [create-react-app](https://github.com/facebook/create-react-app) 
-  - `npm install -g create-react-app`
-  - to create a new React.js project run `create-react-app my-app`
+### [create-react-app](https://github.com/facebook/create-react-app) 
+- `npm install -g create-react-app`
+- to create a new React.js project run `create-react-app my-app`
 
 ### Atom 
 - Install [Atom](https://atom.io/)
