@@ -27,13 +27,14 @@ Links and preferences for quick setup of personal development environment
 - install [Emmet](https://emmet.io/) for improved HTML & CSS workflow `apm install emmet`
 
 ## [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
-### [create-react-app](https://github.com/facebook/create-react-app) 
+### [create-react-app](https://github.com/facebook/create-react-app) - Create React apps with no build configuration
 - to install `npm install -g create-react-app`
 - to create a new React.js project `create-react-app my-app-name`
 - move to folder `cd my-app-name`
 - start dev server `npm start`
 ### [ESLint](https://eslint.org/) - React.js specific linting config
 - install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
+- add [.eslintrc.json](asd) to project root  
 
 ## Dev dependencies
 - Gulp `npm install -g gulp`
