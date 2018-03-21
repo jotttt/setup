@@ -5,17 +5,18 @@ Links and preferences for quick setup of personal development environment
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
 ## Chocolatey
-- with PowerShell.exe run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
+- Run as admin PowerShell.exe 
+- Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
-
-- Install [WinSCP](https://winscp.net/eng/download.php) and go to tools -> import settings file from Dropbox
-- Install [Node.js](https://nodejs.org/en/) 
-- Install [Git](https://git-scm.com/download/win)
-- Install [ConEmu](https://conemu.github.io/)
-- Choose `{Bash::Git bash}` as startup task on inital launch config
+- Install [WinSCP](https://winscp.net) `choco install winscp` 
+  - go to tools -> import settings file from Dropbox
+- Install [Node.js](https://nodejs.org/en/) `choco install nodejs`
+- Install [Git](https://git-scm.com/) `choco install git`
+- Install [ConEmu](https://conemu.github.io/) `choco install conemu`
+  - Choose `{Bash::Git bash}` as startup task on inital launch config
   - If there is error, point startup task to -> program files/git/bin/sh.exe
-- Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
+  - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 
 ## React.js
 ### [create-react-app](https://github.com/facebook/create-react-app) 
