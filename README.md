@@ -1,11 +1,7 @@
 # setup
 Links and preferences for quick setup of personal development environment
 
-## Heavily borrowed from following pages
-- Windows - https://scotch.io/tutorials/get-a-functional-and-sleek-console-in-windows
-- https://github.com/mdo/config
-
-## Setup Windows
+## Windows
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 - Install [WinSCP](https://winscp.net/eng/download.php) and go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) 
@@ -16,12 +12,13 @@ Links and preferences for quick setup of personal development environment
 - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 
 ## React.js
-- use [create-react-app](https://github.com/facebook/create-react-app) to create a new React.js project
-- 
+- use [create-react-app](https://github.com/facebook/create-react-app) 
+  - `npm install -g create-react-app`
+  - to create a new React.js project run `create-react-app my-app`
+
 ### Atom 
 - Install [Atom](https://atom.io/)
 - install 
-
 
 ## Dev dependencies
 - Gulp `npm install -g gulp`
