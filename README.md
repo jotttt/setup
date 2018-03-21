@@ -1,14 +1,13 @@
 # setup
 Links and preferences for quick setup of personal development environment
 
-## Windows
+## SSH keys
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
-## Chocolatey
+## [Chocolatey](https://chocolatey.org/) - package manager for Windows
 - Run as admin PowerShell.exe 
 - Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
-
 - Install [WinSCP](https://winscp.net) `choco install winscp` 
   - go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) `choco install nodejs`
@@ -19,15 +18,22 @@ Links and preferences for quick setup of personal development environment
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 - install [Atom](https://atom.io/) `choco install atom`
 
-## [React.js](https://reactjs.org/)
+## NPM - package manager for javascript
+
+## [Atom](https://atom.io/) - IDE
+- install Monokai theme `apm install atom-sublime-monokai-syntax`
+- install auto-indent `apm install auto-indent`
+- install [Nuclide](https://nuclide.io/) for React.js development `apm install nuclide`
+- install [Emmet](https://emmet.io/) for improved HTML & CSS workflow `apm install emmet`
+
+## [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 ### [create-react-app](https://github.com/facebook/create-react-app) 
 - to install `npm install -g create-react-app`
 - to create a new React.js project `create-react-app my-app-name`
 - move to folder `cd my-app-name`
 - start dev server `npm start`
-
-### [Atom](https://atom.io/)
--  
+### [ESLint](https://eslint.org/) - React.js specific linting config
+- install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
 
 ## Dev dependencies
 - Gulp `npm install -g gulp`
