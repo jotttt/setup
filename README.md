@@ -17,11 +17,14 @@ Links and preferences for quick setup of personal development environment
   - Choose `{Bash::Git bash}` as startup task on inital launch config
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
+- install [Atom](https://atom.io/) `choco install atom`
 
-## React.js
+## [React.js](https://reactjs.org/)
 ### [create-react-app](https://github.com/facebook/create-react-app) 
-- `npm install -g create-react-app`
-- `create-react-app my-app` to create a new React.js project
+- to install `npm install -g create-react-app`
+- to create a new React.js project `create-react-app my-app-name`
+- move to folder `cd my-app-name`
+- start dev server `npm start`
 
 ### [Atom](https://atom.io/)
 -  
