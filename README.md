@@ -5,7 +5,7 @@ Links and preferences for quick setup of personal development environment
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
 ## Chocolatey
-- with PowerShell.exe run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass - Scope Process`.
+- with PowerShell.exe run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
 
