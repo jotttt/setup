@@ -3,6 +3,13 @@ Links and preferences for quick setup of personal development environment
 
 ## Windows
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
+
+## Chocolatey
+- install with PowerShell.exe
+  - Run 'Get-ExecutionPolicy'. If it returns 'Restricted', then run 'Set-ExecutionPolicy AllSigned' or 'Set-ExecutionPolicy Bypass -         Scope Process'.
+  - Then run 'Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))'
+
+
 - Install [WinSCP](https://winscp.net/eng/download.php) and go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) 
 - Install [Git](https://git-scm.com/download/win)
@@ -14,11 +21,10 @@ Links and preferences for quick setup of personal development environment
 ## React.js
 ### [create-react-app](https://github.com/facebook/create-react-app) 
 - `npm install -g create-react-app`
-- to create a new React.js project run `create-react-app my-app`
+- `create-react-app my-app` to create a new React.js project
 
-### Atom 
-- Install [Atom](https://atom.io/)
-- install 
+### [Atom](https://atom.io/)
+-  
 
 ## Dev dependencies
 - Gulp `npm install -g gulp`
