@@ -4,7 +4,7 @@ Links and preferences for quick setup of personal development environment
 ## SSH keys
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
-## [Chocolatey](https://chocolatey.org/) - package manager for Windows
+## 1. [Chocolatey](https://chocolatey.org/) - package manager for Windows
 - Run as admin PowerShell.exe 
 - Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
@@ -18,15 +18,16 @@ Links and preferences for quick setup of personal development environment
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 - install [Atom](https://atom.io/) `choco install atom`
 
-## NPM - package manager for javascript
-
-## [Atom](https://atom.io/) - IDE
+## 2. [Atom](https://atom.io/) - IDE
 - install Monokai theme `apm install atom-sublime-monokai-syntax`
 - install auto-indent `apm install auto-indent`
 - install [Nuclide](https://nuclide.io/) for React.js development `apm install nuclide`
 - install [Emmet](https://emmet.io/) for improved HTML & CSS workflow `apm install emmet`
 
-## [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
+## 3. [GIT](https://git-scm.com/) - version control system
+- set github credentials in project root with `git remote set-url origin https://username:password@github.com/username/repository.git`
+
+## 4. [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 ### [create-react-app](https://github.com/facebook/create-react-app) - Create React apps with no build configuration
 - to install `npm install -g create-react-app`
 - to create a new React.js project `create-react-app my-app-name`
@@ -35,6 +36,8 @@ Links and preferences for quick setup of personal development environment
 ### [ESLint](https://eslint.org/) - React.js specific linting config
 - install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
 - add [.eslintrc.json](asd) to project root  
+
+## NPM - package manager for javascript
 
 ## Dev dependencies
 - Gulp `npm install -g gulp`
