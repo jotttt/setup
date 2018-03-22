@@ -16,7 +16,7 @@ Links and preferences for quick setup of personal development environment
   - Choose `{Bash::Git bash}` as startup task on inital launch config
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
-- install [Atom](https://atom.io/) `choco install atom`
+- install [Atom](https://atom.io/) `choco install atom `
 
 
 ## 2. [Atom](https://atom.io/) - IDE
