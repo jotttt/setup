@@ -4,7 +4,7 @@ Links and preferences for quick setup of personal development environment
 ## SSH keys
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
-## 1. [Chocolatey](https://chocolatey.org/) - package manager for Windows
+## 100. [Chocolatey](https://chocolatey.org/) - package manager for Windows
 - Run as admin PowerShell.exe
 - Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
@@ -16,7 +16,7 @@ Links and preferences for quick setup of personal development environment
   - Choose `{Bash::Git bash}` as startup task on inital launch config
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
-- install [Atom](https://atom.io/) `choco install atom` 
+- install [Atom](https://atom.io/) `choco install atom`
 
 
 ## 2. [Atom](https://atom.io/) - IDE
