@@ -18,6 +18,7 @@ Links and preferences for quick setup of personal development environment
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 - install [Atom](https://atom.io/) `choco install atom`
 
+
 ## 2. [Atom](https://atom.io/) - IDE
 - install Monokai theme `apm install atom-sublime-monokai-syntax`
 - install auto-indent `apm install auto-indent`
