@@ -5,10 +5,10 @@ Links and preferences for quick setup of personal development environment
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
 ## 1. [Chocolatey](https://chocolatey.org/) - package manager for Windows
-- Run as admin PowerShell.exe 
+- Run as admin PowerShell.exe
 - Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
-- Install [WinSCP](https://winscp.net) `choco install winscp` 
+- Install [WinSCP](https://winscp.net) `choco install winscp`
   - go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) `choco install nodejs`
 - Install [Git](https://git-scm.com/) `choco install git`
@@ -16,7 +16,7 @@ Links and preferences for quick setup of personal development environment
   - Choose `{Bash::Git bash}` as startup task on inital launch config
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
-- install [Atom](https://atom.io/) `choco install atom`
+- install [Atom](https://atom.io/) `choco install atom` 
 
 
 ## 2. [Atom](https://atom.io/) - IDE
@@ -43,7 +43,7 @@ Links and preferences for quick setup of personal development environment
 ## Dev dependencies
 - Gulp `npm install -g gulp`
 
-## Brackets 
+## Brackets
 - Install [Brackets](http://brackets.io/)
 - Install Brackets extensions:
   - Extensions Bulk Installer (use the config file in Dropbox)
@@ -52,10 +52,10 @@ Links and preferences for quick setup of personal development environment
 
 ## TTU
 - Go to -> https://wiki.ttu.ee/it/et/doc/vpn and install the vpn client
-- Start vpn and go to https://itwiki.intra.ttu.ee/ Search git to get repo addresses 
+- Start vpn and go to https://itwiki.intra.ttu.ee/ Search git to get repo addresses
 
 ## Inkscape (with dark theme)
-- Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/ 
+- Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/
 - Copy files from dropbox/webdev/setup/inkscape/dark theme files to C:\Program Files\Inkscape\
 - Copy default template from dropbox/webdev/setup/inkscape to C:\Program Files\Inkscape\share\templates OR C:\Users\[username]\AppData\Roaming\inkscape\templates
 - Start or re-start Inkscape
@@ -76,5 +76,5 @@ Links and preferences for quick setup of personal development environment
   - ...and then we go to Edit -> Preferences -> Tools Options -> Save Tool Options Now.
 - Copy gimp-splash.png (photoshop cs6 inspired) from splash folder to C:\Program Files\Gimp-2.8\share\gimp\2.0\images
 
-## Sumatra PDF 
+## Sumatra PDF
 - don't install Adobe Reader or Foxit PDF
