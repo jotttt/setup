@@ -35,7 +35,7 @@ Links and preferences for quick setup of personal development environment
 - start dev server `npm start`
 ### [ESLint](https://eslint.org/) - React.js specific linting config
 - install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
-- add [.eslintrc.json](asd) to project root  
+- add [.eslintrc.json](https://github.com/jotttt/setup/blob/master/ESLint/.eslintrc.json) to project root  
 
 ## Dev dependencies
 - Gulp `npm install -g gulp`
