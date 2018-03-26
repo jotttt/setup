@@ -11,7 +11,6 @@ Links and preferences for quick setup of personal development environment
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
 **Install packages**
-(*combined command:* `choco install winscp nodejs git conemu atom`)
 - Install [WinSCP](https://winscp.net) `choco install winscp`
   - go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) `choco install nodejs`
@@ -21,6 +20,7 @@ Links and preferences for quick setup of personal development environment
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 - install [Atom](https://atom.io/) `choco install atom `
+*combined command:* `choco install winscp nodejs git conemu atom`
 
 ## 2. [Atom](https://atom.io/) - IDE
 - install Monokai theme `apm install atom-sublime-monokai-syntax`
