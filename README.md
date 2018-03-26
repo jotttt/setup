@@ -9,6 +9,7 @@ Links and preferences for quick setup of personal development environment
 - Run as admin PowerShell.exe
 - Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
 **Install packages**
 - Install [WinSCP](https://winscp.net) `choco install winscp`
   - go to tools -> import settings file from Dropbox
