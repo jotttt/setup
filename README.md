@@ -1,7 +1,7 @@
 # setup
 Links and preferences for quick setup of personal development environment
 
-## SSH keys
+**SSH keys**
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
 ## 1. [Chocolatey](https://chocolatey.org/) - package manager for Windows
