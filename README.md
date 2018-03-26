@@ -24,7 +24,7 @@ Links and preferences for quick setup of personal development environment
 - install auto-indent `apm install auto-indent`
 - install [Nuclide](https://nuclide.io/) for React.js development `apm install nuclide`
 - install [Emmet](https://emmet.io/) for improved HTML & CSS workflow `apm install emmet`
-*** combined command `apm install atom-sublime-monokai-syntax auto-indent nuclide emmet` ***
+- *** combined command `apm install atom-sublime-monokai-syntax auto-indent nuclide emmet` ***
 - log into GitHub by navigating to `Packages -> GitHub -> Toggle GitHub Tab` and authorize it 
 
 ## 4. [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
