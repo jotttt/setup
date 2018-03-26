@@ -20,7 +20,9 @@ Links and preferences for quick setup of personal development environment
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 - install [Atom](https://atom.io/) `choco install atom `
-*combined command:* `choco install winscp nodejs git conemu atom`
+>
+>*combined command:* `choco install winscp nodejs git conemu atom`
+>
 
 ## 2. [Atom](https://atom.io/) - IDE
 - install Monokai theme `apm install atom-sublime-monokai-syntax`
