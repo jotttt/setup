@@ -48,9 +48,6 @@ Links and preferences for quick setup of personal development environment
 - install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
 - add [.eslintrc.json](https://github.com/jotttt/setup/blob/master/ESLint/.eslintrc.json) to project root  
 
-## Dev dependencies
-- Gulp `npm install -g gulp`
-
 ## Brackets
 - Install [Brackets](http://brackets.io/)
 - Install Brackets extensions:
