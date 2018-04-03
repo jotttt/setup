@@ -1,13 +1,14 @@
 # setup
 Links and preferences for quick setup of personal development environment
 
-## SSH keys
-- copy ssh keys from Dropbox to -> users/[username]/.ssh/
-
 ## 1. [Chocolatey](https://chocolatey.org/) - package manager for Windows
+
+**Install Chocolatey**
 - Run as admin PowerShell.exe
 - Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
+
+**Install packages**
 - Install [WinSCP](https://winscp.net) `choco install winscp`
   - go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) `choco install nodejs`
@@ -17,28 +18,35 @@ Links and preferences for quick setup of personal development environment
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 - install [Atom](https://atom.io/) `choco install atom `
-
+>
+>*combined command:* `choco install winscp nodejs git conemu atom`
+>
 
 ## 2. [Atom](https://atom.io/) - IDE
+
+**Install extensions**
 - install Monokai theme `apm install atom-sublime-monokai-syntax`
 - install auto-indent `apm install auto-indent`
 - install [Nuclide](https://nuclide.io/) for React.js development `apm install nuclide`
 - install [Emmet](https://emmet.io/) for improved HTML & CSS workflow `apm install emmet`
-*** combined command `apm install atom-sublime-monokai-syntax auto-indent nuclide emmet` ***
-- log into GitHub by navigating to `Packages -> GitHub -> Toggle GitHub Tab` and authorize it 
+>
+>*combined command:* `apm install atom-sublime-monokai-syntax auto-indent nuclide emmet`
+>
 
-## 4. [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
-### [create-react-app](https://github.com/facebook/create-react-app) - Create React apps with no build configuration
+**sync with GitHub**
+- navigate to `Packages -> GitHub -> Toggle GitHub Tab` and authorize it 
+
+## 3. [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
+
+**[create-react-app](https://github.com/facebook/create-react-app)** - Create React apps with no build configuration
 - to install `npm install -g create-react-app`
 - to create a new React.js project `create-react-app my-app-name`
 - move to folder `cd my-app-name`
 - start dev server `npm start`
-### [ESLint](https://eslint.org/) - React.js specific linting config
-- install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
-- add [.eslintrc.json](asd) to project root  
 
-## Dev dependencies
-- Gulp `npm install -g gulp`
+**[ESLint](https://eslint.org/)** - React.js specific linting config
+- install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
+- add [.eslintrc.json](https://github.com/jotttt/setup/blob/master/ESLint/.eslintrc.json) to project root  
 
 ## Brackets
 - Install [Brackets](http://brackets.io/)
@@ -50,6 +58,7 @@ Links and preferences for quick setup of personal development environment
 ## TTU
 - Go to -> https://wiki.ttu.ee/it/et/doc/vpn and install the vpn client
 - Start vpn and go to https://itwiki.intra.ttu.ee/ Search git to get repo addresses
+- copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
 ## Inkscape (with dark theme)
 - Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/
