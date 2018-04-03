@@ -19,13 +19,14 @@
     "react-native"
   ],
   "rules": {
+    "react/prop-types": 0,
     "indent": [
       "error",
       2
     ],
     "linebreak-style": [
       "error",
-      "windows"
+      "unix"
     ],
     "quotes": [
       "error",
@@ -34,6 +35,8 @@
     "semi": [
       "error",
       "always"
-    ]
+    ],
+    "quote-props": 0,
+    "new-cap": 0
   }
 }
