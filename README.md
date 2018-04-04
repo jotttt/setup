@@ -38,7 +38,7 @@ Links and preferences for quick setup of personal development environment
 
 ## 3. [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
-**[create-react-app](https://github.com/facebook/create-react-app)** - Create React apps with no build configuration
+**[create-react-app](https://github.com/facebook/create-react-app)** - Create React app with no build configuration
 - to install `npm install -g create-react-app`
 - to create a new React.js project `create-react-app my-app-name`
 - move to folder `cd my-app-name`
@@ -47,6 +47,25 @@ Links and preferences for quick setup of personal development environment
 **[ESLint](https://eslint.org/)** - React.js specific linting config
 - install packages `npm install --save-dev eslint babel-eslint eslint-config-react eslint-plugin-react eslint-plugin-react-native`
 - add [.eslintrc.json](https://github.com/jotttt/setup/blob/master/ESLint/.eslintrc.json) to project root  
+
+**[Sass](https://sass-lang.com/)** - Css pre-processor for create-react-app
+- to install `npm install --save node-sass-chokidar npm-run-all`
+- Then in package.json, add the following lines to scripts: 
+```
+      "scripts": {
++    "build-css": "node-sass-chokidar src/ -o src/",
++    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+-    "start": "react-scripts start",
+-    "build": "react-scripts build",
++    "start-js": "react-scripts start",
++    "start": "npm-run-all -p watch-css start-js",
++    "build-js": "react-scripts build",
++    "build": "npm-run-all build-css build-js",
+     "test": "react-scripts test --env=jsdom",
+     "eject": "react-scripts eject"
+   }
+```
+- Now running npm start and npm run build also builds Sass files, finding every Sass file in src subdirectories and creating a corresponding CSS file next to it.
 
 ## Brackets
 - Install [Brackets](http://brackets.io/)
