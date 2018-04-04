@@ -71,14 +71,21 @@ Links and preferences for quick setup of personal development environment
 - to install `npm install --save bootstrap`
 - add import line to index.js:
 ```
-  import React from 'react';
-  import ReactDOM from 'react-dom';
-  import App from './App';
-  import registerServiceWorker from './registerServiceWorker';
-+ import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
 
-  ReactDOM.render(<App />, document.getElementById('root'));
-  registerServiceWorker();
+**[Font Awesome](https://fontawesome.com/)** - Icon library
+- to install `npm install --save font-awesome`
+- add import line to index.js:
+```  
+import 'font-awesome/css/font-awesome.min.css';
+```
+
+**Custom fonts**
+- to install ie. Open Sans font `npm install --save typeface-open-sans`
+- add import line to index.js:
+```  
+import 'typeface-open-sans';
 ```
 
 ## Brackets
