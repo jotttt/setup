@@ -67,6 +67,20 @@ Links and preferences for quick setup of personal development environment
 ```
 - Now running npm start and npm run build also builds Sass files, finding every Sass file in src subdirectories and creating a corresponding CSS file next to it.
 
+**[Bootstrap 4](https://getbootstrap.com/)** - Front-end component library
+- to install `npm install --save bootstrap`
+- add import line to index.js:
+```
+  import React from 'react';
+  import ReactDOM from 'react-dom';
+  import App from './App';
+  import registerServiceWorker from './registerServiceWorker';
++ import 'bootstrap/dist/css/bootstrap.min.css';
+
+  ReactDOM.render(<App />, document.getElementById('root'));
+  registerServiceWorker();
+```
+
 ## Brackets
 - Install [Brackets](http://brackets.io/)
 - Install Brackets extensions:
