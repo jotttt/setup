@@ -74,6 +74,14 @@ Links and preferences for quick setup of personal development environment
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
+**[ReactStrap](https://reactstrap.github.io/)** - Bootstrap integration for React
+- to install `npm install --save reactstrap@next`
+- Import required reactstrap components within src/App.js file or your custom component files ie:
+```
+import { Button } from 'reactstrap';
+```
+- check how to use different components from here: https://reactstrap.github.io/components/alerts/ 
+
 **[Font Awesome](https://fontawesome.com/)** - Icon library
 - to install `npm install --save font-awesome`
 - add import line to index.js:
