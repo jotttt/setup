@@ -17,24 +17,15 @@ Links and preferences for quick setup of personal development environment
   - Choose `{Bash::Git bash}` as startup task on inital launch config
   - If there is error, point startup task to -> program files/git/bin/sh.exe
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
-- install [Atom](https://atom.io/) `choco install atom `
+- install [VS Code](https://code.visualstudio.com/) `choco install visualstudiocode`
 >
->*combined command:* `choco install winscp nodejs git conemu atom`
+>*combined command:* `choco install winscp nodejs git conemu visualstudiocode`
 >
 
-## 2. [Atom](https://atom.io/) - IDE
-
-**Install extensions**
-- install Monokai theme `apm install atom-sublime-monokai-syntax`
-- install auto-indent `apm install auto-indent`
-- install [Nuclide](https://nuclide.io/) for React.js development `apm install nuclide`
-- install [Emmet](https://emmet.io/) for improved HTML & CSS workflow `apm install emmet`
->
->*combined command:* `apm install atom-sublime-monokai-syntax auto-indent nuclide emmet`
->
+## 2. [VS Code](https://code.visualstudio.com/) - IDE
 
 **sync with GitHub**
-- navigate to `Packages -> GitHub -> Toggle GitHub Tab` and authorize it 
+
 
 ## 3. [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
