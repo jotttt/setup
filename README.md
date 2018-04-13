@@ -44,8 +44,8 @@ Links and preferences for quick setup of personal development environment
 - Then in package.json, add the following lines to scripts: 
 ```
       "scripts": {
-+    "build-css": "node-sass-chokidar src/ -o src/",
-+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
++    "build-css": "node-sass-chokidar ./src/stylesheets/style.scss ./src/stylesheets/style.css",
++    "watch-css": "npm run build-css && node-sass-chokidar ./src/stylesheets -o ./src/stylesheets --watch --recursive",
 -    "start": "react-scripts start",
 -    "build": "react-scripts build",
 +    "start-js": "react-scripts start",
@@ -56,7 +56,9 @@ Links and preferences for quick setup of personal development environment
      "eject": "react-scripts eject"
    }
 ```
-- Now running npm start and npm run build also builds Sass files, finding every Sass file in src subdirectories and creating a corresponding CSS file next to it.
+- Now running npm start and npm build also builds Sass files, finding every Sass file in stylesheets subdirectories and creating a master CSS file in the stylesheets root directory.
+
+- install JavaScript utility for conditionally joining classNames together `npm install classnames --save`
 
 **[Bootstrap 4](https://getbootstrap.com/)** - Front-end component library
 - to install `npm install --save bootstrap`
