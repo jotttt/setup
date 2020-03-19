@@ -90,14 +90,7 @@ import 'typeface-open-sans';
 ```
 ## Other tools
 
-### Brackets
-- Install [Brackets](http://brackets.io/)
-- Install Brackets extensions:
-  - Extensions Bulk Installer (use the config file in Dropbox)
-- Copy brackets.json file from Dropbox to \Users\[username]\AppData\Roaming\Brackets
-- Add EditorConfig file to webdev root
-
-### TTU
+### TalTech
 - Go to -> https://wiki.ttu.ee/it/et/doc/vpn and install the vpn client
 - Start vpn and go to https://itwiki.intra.ttu.ee/ Search git to get repo addresses
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
