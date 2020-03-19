@@ -1,7 +1,7 @@
 # setup
 Links and preferences for quick setup of personal development environment
 
-## 1. [Chocolatey](https://chocolatey.org/) - package manager for Windows
+## [Chocolatey](https://chocolatey.org/) - package manager for Windows
 
 **Install Chocolatey**
 - Run as admin PowerShell.exe
@@ -22,12 +22,17 @@ Links and preferences for quick setup of personal development environment
 >*combined command:* `choco install winscp nodejs git conemu visualstudiocode`
 >
 
-## 2. [VS Code](https://code.visualstudio.com/) - IDE
+## [Figma](https://figma.com/) - UI/UX Design
+
+**Get plugins Wireframe and Better font picker**
+
+
+## [VS Code](https://code.visualstudio.com/) - IDE
 
 **sync with GitHub**
 
 
-## 3. [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
+## [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
 **[create-react-app](https://github.com/facebook/create-react-app)** - Create React app with no build configuration
 - to install `npm install -g create-react-app`
@@ -95,6 +100,9 @@ import 'typeface-open-sans';
 - Start vpn and go to https://itwiki.intra.ttu.ee/ Search git to get repo addresses
 - copy ssh keys from Dropbox to -> users/[username]/.ssh/
 
+### Figma - Vector Design program
+- Better for webdesign than Illustrator
+
 ### Inkscape (with dark theme)
 - Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/
 - Copy files from dropbox/webdev/setup/inkscape/dark theme files to C:\Program Files\Inkscape\
@@ -117,8 +125,7 @@ import 'typeface-open-sans';
   - ...and then we go to Edit -> Preferences -> Tools Options -> Save Tool Options Now.
 - Copy gimp-splash.png (photoshop cs6 inspired) from splash folder to C:\Program Files\Gimp-2.8\share\gimp\2.0\images
 
-### [Pencil](http://pencil.evolus.vn/) - Wireframing tool
-- 
+
 
 ### Sumatra PDF
 - don't install Adobe Reader or Foxit PDF
