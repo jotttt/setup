@@ -8,6 +8,11 @@ Links and preferences for quick setup of personal development environment
 - Then run `Get-ExecutionPolicy`. If it returns `Restricted`, then run `Set-ExecutionPolicy AllSigned` or `Set-ExecutionPolicy Bypass -Scope Process`.
 - Then run `Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object                                              System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))`
 
+**Alternative install if above does not work**
+- Download GIT installer first 
+- Run the installer and if it asks if you want to install aditional tools select "yes"
+- This will install Chocolatey as part of the additional tools
+
 **Install packages**
 - Install [WinSCP](https://winscp.net) `choco install winscp`
   - go to tools -> import settings file from Dropbox
