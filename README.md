@@ -14,6 +14,8 @@ Links and preferences for quick setup of personal development environment
 - This will install Chocolatey as part of the additional tools
 
 **Install packages**
+- Install [7zip](https://www.7-zip.org/) `choco install 7zip`
+- Install [sumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader.html) `choco install sumatrapdf.install`
 - Install [WinSCP](https://winscp.net) `choco install winscp`
   - go to tools -> import settings file from Dropbox
 - Install [Node.js](https://nodejs.org/en/) `choco install nodejs`
@@ -24,7 +26,7 @@ Links and preferences for quick setup of personal development environment
   - Open Settings and Import [`ConEmu.xml`](ConEmu.xml)
 - install [VS Code](https://code.visualstudio.com/) `choco install visualstudiocode`
 >
->*combined command:* `choco install winscp nodejs git conemu visualstudiocode`
+>*combined command:* `choco install 7zip sumatrapdf.install winscp nodejs git conemu visualstudiocode`
 >
 
 ## [Figma](https://figma.com/) - UI/UX Design
@@ -129,8 +131,3 @@ import 'typeface-open-sans';
   - with the Move Tool selected, we choose the "Move the active layer" option...
   - ...and then we go to Edit -> Preferences -> Tools Options -> Save Tool Options Now.
 - Copy gimp-splash.png (photoshop cs6 inspired) from splash folder to C:\Program Files\Gimp-2.8\share\gimp\2.0\images
-
-
-
-### Sumatra PDF
-- don't install Adobe Reader or Foxit PDF
