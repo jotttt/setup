@@ -36,7 +36,7 @@ Links and preferences for quick setup of personal development environment
 
 ## [VS Code](https://code.visualstudio.com/) - IDE
 
-**sync with GitHub**
+**install extension "Settings Sync" to get the necessary extensions**
 
 
 ## [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
