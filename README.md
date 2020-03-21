@@ -38,6 +38,11 @@ Links and preferences for quick setup of personal development environment
 
 - install extension "Settings Sync" to get the necessary extensions
 
+**GIT setup per project**
+- In project root run following commands in console:
+- git config user.name "username"
+- git config user.email "email"
+
 **SASS compiler setup per project**
 - Create a folder named .vscode in the root folder
 - Create a file named settings.json in that folder and add your settings there.
