@@ -36,8 +36,21 @@ Links and preferences for quick setup of personal development environment
 
 ## [VS Code](https://code.visualstudio.com/) - IDE
 
-**install extension "Settings Sync" to get the necessary extensions**
+- install extension "Settings Sync" to get the necessary extensions
 
+**SASS compiler setup per project**
+- Create a folder named .vscode in the root folder
+- Create a file named settings.json in that folder and add your settings there.
+- Example content of settings.json file:
+`{
+    "liveSassCompile.settings.formats":[
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/stylesheet"
+        }
+    ]
+}`
 
 ## [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
