@@ -42,7 +42,8 @@ Links and preferences for quick setup of personal development environment
 - Create a folder named .vscode in the root folder
 - Create a file named settings.json in that folder and add your settings there.
 - Example content of settings.json file:
-`{
+```
+{
     "liveSassCompile.settings.formats":[
         {
             "format": "expanded",
@@ -50,7 +51,8 @@ Links and preferences for quick setup of personal development environment
             "savePath": "/stylesheet"
         }
     ]
-}`
+}
+```
 
 ## [React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
