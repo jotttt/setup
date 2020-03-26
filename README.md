@@ -138,7 +138,8 @@ import 'typeface-open-sans';
 
 ### Gimp (with photoshop-like dark theme and tweaks)
 - Install dark version Gimp 2.8.14 [[Link](http://www.partha.com/)]
-- copy plug-ins (Content Aware Fill and Layer via copy extensions) folder content to users/[username]/.gimp-2.8/plug-ins
+- Run Gimp so that the user folders are created and then close it.  
+- Copy plug-ins (Content Aware Fill and Layer via copy extensions) folder content to users/[username]/.gimp-2.8/plug-ins
 - Copy themes folder content to users/[username]/.gimp-2.8/themes
   - open the program, select Windows -> Single-Window Mode...
   - select the theme, from Edit -> Preferences -> Theme
