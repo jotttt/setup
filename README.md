@@ -122,14 +122,6 @@ import 'typeface-open-sans';
 ```
 ## Other tools
 
-### TalTech
-- Go to -> https://wiki.ttu.ee/it/et/doc/vpn and install the vpn client
-- Start vpn and go to https://itwiki.intra.ttu.ee/ Search git to get repo addresses
-- copy ssh keys from Dropbox to -> users/[username]/.ssh/
-
-### Figma - Vector Design program
-- Better for webdesign than Illustrator
-
 ### Inkscape (with dark theme)
 - Install inkscape 0.91 -> https://inkscape.org/en/release/0.91/
 - Copy files from dropbox/webdev/setup/inkscape/dark theme files to C:\Program Files\Inkscape\
