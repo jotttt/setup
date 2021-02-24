@@ -31,7 +31,7 @@ Links and preferences for quick setup of personal development environment
 
 ## [Figma](https://figma.com/) - UI/UX Design
 
-**Get plugins Wireframe and Better font picker**
+**Get plugins: Wireframe and Better font picker**
 
 
 ## [VS Code](https://code.visualstudio.com/) - IDE
